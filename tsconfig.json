@@ -14,12 +14,5 @@
       "@foo/*": ["./*/src"]
     }
   },
-  "references": [
-    {
-      "path": "packages/lib-a"
-    },
-    {
-      "path": "packages/app"
-    }
-  ]
+  "references": []
 }

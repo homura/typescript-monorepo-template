@@ -1,5 +1,6 @@
 {
   "include": ["src"],
+  "exclude": ["**/__tests__/**"],
   "extends": "../../tsconfig",
   "compilerOptions": {
     "rootDir": "src",

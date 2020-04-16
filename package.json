@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna run bootstrap",
-    "build": "tsc -b",
+    "build": "tsc -b packages/*",
     "clean": "npm-run-all clean:*",
     "clean:cache": "rimraf .cache",
     "clean:packages": "lerna run clean",
