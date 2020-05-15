@@ -11,16 +11,15 @@
     "declarationMap": true,
     "sourceMap": true,
     "paths": {
-      "@foo/*": ["./*/src"]
+      "@foo/*": ["@foo/*/src"]
     }
   },
-  "files": [],
   "references": [
     {
-      "path": "packages/lib-a"
+      "path": "./packages/app"
     },
     {
-      "path": "packages/app"
+      "path": "./packages/@foo/lib-a"
     }
   ]
 }

@@ -9,10 +9,10 @@
   ],
   "scripts": {
     "bootstrap": "lerna run bootstrap",
-    "build": "tsc -b",
+    "build": "tsc -b tsconfig.json",
     "clean": "npm-run-all clean:*",
     "clean:cache": "rimraf .cache",
-    "clean:packages": "lerna run clean",
+    "clean:build": "rimraf packages/**/lib",
     "test": "jest --config=jest.json"
   },
   "devDependencies": {

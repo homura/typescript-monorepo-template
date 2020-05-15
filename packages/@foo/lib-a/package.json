@@ -1,0 +1,9 @@
+{
+  "name": "@foo/lib-a",
+  "version": "0.0.1",
+  "main": "../../lib-a/lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "../../lib-a/lib"
+  ]
+}

@@ -1,10 +1,9 @@
 {
   "include": ["src"],
   "exclude": ["**/__tests__/**"],
-  "extends": "../../tsconfig",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
-    "tsBuildInfoFile": "../../.cache/lib-a.tsbuildinfo"
+    "composite": true
   }
 }

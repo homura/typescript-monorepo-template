@@ -5,11 +5,11 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
-    "tsBuildInfoFile": "../../.cache/app.tsbuildinfo"
+    "composite": true
   },
   "references": [
     {
-      "path": "../lib-a"
+      "path": "../@foo/lib-a"
     }
   ]
 }
