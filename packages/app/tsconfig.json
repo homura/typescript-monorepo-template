@@ -4,12 +4,11 @@
   "extends": "../../tsconfig",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "lib",
-    "composite": true
+    "outDir": "lib"
   },
   "references": [
     {
-      "path": "../@foo/lib-a"
+      "path": "../lib-a"
     }
   ]
 }

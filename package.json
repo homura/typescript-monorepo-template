@@ -12,8 +12,8 @@
     "build": "tsc -b tsconfig.json",
     "clean": "npm-run-all clean:*",
     "clean:cache": "rimraf .cache",
-    "clean:build": "rimraf packages/**/lib",
-    "test": "jest --config=jest.json"
+    "clean:build": "rimraf packages/**/lib packages/**/*.tsbuildinfo",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",

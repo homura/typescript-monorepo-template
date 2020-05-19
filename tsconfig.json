@@ -16,10 +16,10 @@
   },
   "references": [
     {
-      "path": "./packages/app"
+      "path": "packages/app"
     },
     {
-      "path": "./packages/@foo/lib-a"
+      "path": "packages/lib-a"
     }
   ]
 }
