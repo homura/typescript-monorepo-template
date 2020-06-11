@@ -1,0 +1,12 @@
+{
+  "name": "my-lib",
+  "mode": "modules",
+  "out": "build/docs",
+  "ignoreCompilerErrors": true,
+  "preserveConstEnums": "true",
+  "exclude": ["**/*.test.*", "**/*.e2e.*", "**/node_modules/**", "**/index.ts"],
+  "stripInternal": false,
+  "inputFiles": ["packages"],
+  "external-modulemap": ".*/packages/([\\w\\-_]+)/",
+  "tsconfig": "./tsconfig.json"
+}

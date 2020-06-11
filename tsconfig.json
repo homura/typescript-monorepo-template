@@ -11,7 +11,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "paths": {
-      "@foo/*": ["@foo/*/src"]
+      "@foo/*": ["./*/src"]
     }
   },
   "references": [
