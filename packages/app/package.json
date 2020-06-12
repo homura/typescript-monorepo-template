@@ -7,6 +7,6 @@
     "lib"
   ],
   "dependencies": {
-    "@foo/lib-a": "*"
+    "@foo/lib-a": "^0.0.1"
   }
 }
