@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna run bootstrap",
-    "build": "tsc -b",
+    "build": "tsc -b tsconfig.build.json",
     "clean": "npm-run-all clean:*",
     "clean:cache": "rimraf .cache",
     "clean:build": "rimraf packages/**/lib packages/**/*.tsbuildinfo",

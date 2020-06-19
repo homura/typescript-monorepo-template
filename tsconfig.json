@@ -1,4 +1,5 @@
 {
+  "files": [],
   "compilerOptions": {
     "module": "commonjs",
     "target": "es2018",
@@ -13,13 +14,5 @@
     "paths": {
       "@foo/*": ["./*/src"]
     }
-  },
-  "references": [
-    {
-      "path": "packages/app"
-    },
-    {
-      "path": "packages/lib-a"
-    }
-  ]
+  }
 }
